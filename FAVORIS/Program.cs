@@ -89,7 +89,7 @@ namespace FAVORIS
                             SW.Write("<li><a href='");
                             SW.Write(Line.Substring(J, K - J));
                             SW.Write("'>");
-                            SW.Write(FI.Name);
+                            SW.Write(FI.Name.Substring(0,FI.Name.Length-4));
                             SW.Write("</a></li>");
                         }
                     }
